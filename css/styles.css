@@ -259,32 +259,3 @@ button:focus,
 .cloud-right {
   animation: 6s cloud-color infinite alternate linear;
 }
-
-@keyframes cloud-move {
-  from {
-    transform: translate(0, 50px);
-  }
-
-  to {
-    transform: translate(500px, 50px);
-  }
-}
-
-.cloud-left,
-.cloud-center {
-  animation: 30s cloud-move infinite alternate linear;
-}
-
-@keyframes cloud-move-reverse {
-  from {
-    transform: translate(446px, 48px);
-  }
-
-  to {
-    transform: translate(100px, 48px);
-  }
-}
-
-.cloud-right {
-  animation: 34s cloud-move-reverse infinite alternate linear;
-}
